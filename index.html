@@ -15,11 +15,10 @@
       href="https://fonts.googleapis.com/css?family=Roboto Condensed"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
   </head>
   <body>
     <div class="body1">
-      <img class="img1" src="../img/home.jpg" alt="page1" />
+      <img class="img" src="../img/home.jpg" alt="page1" />
       <span>
         <h1 class="h2_1">SAVE</h1>
         <h1 class="h1_1">THE OCEAN</h1>
@@ -39,7 +38,7 @@
       </form>
     </div>
     <div class="body2">
-      <img class="img2" src="../img/coral.jpg" alt="page2" />
+      <img class="img" src="../img/coral.jpg" alt="page2" />
       <span>
         <h1 id="h1_2">RẠN</h1>
         <h1 id="h2_2">SAN HÔ</h1>
@@ -54,8 +53,14 @@
           thiết với<br />
           nhiều loài cá khác nhau.
         </p>
-        <button id="btn2">Chi tiết hơn về san hô</button>
+        <button id="btn2" onclick="hien()">Chi tiết hơn về san hô</button>
+        <!-- <input type="submit" id="btn2" onclick="hien()" value="Chi tiết hơn về san hô"/> -->
+
       </span>
+    </div>
+    <div id="hide1" style="display: none">
+      <img class="img" src="../img/sh1.png" alt="page3" />
+      <button id="btn2_5" onclick="an()">Ẩn nội dung</button>
     </div>
     <div class="body3">
       <img class="img3" src="../img/ruabien.jpg" alt="page3" />
@@ -78,11 +83,15 @@
           tai<br />
           nhưng vẫn nghe được do có màng nhĩ được bao phủ bởi da bên ngoài.
         </p>
-        <button id="btn3">Chi tết hơn về rùa</button>
+        <button id="btn3" onclick="hien1()">Chi tết hơn về rùa</button>
       </span>
     </div>
+    <div id="hide2" style="display: none">
+      <img class="img" src="../img/rb1.png" alt="page3" />
+      <button id="btn3_5" onclick="an1()">Ẩn nội dung</button>
+    </div>
     <div class="body4">
-      <img class="img4" src="../img/cavoi.jpg" alt="page4" />
+      <img class="img" src="../img/cavoi.jpg" alt="page4" />
       <span>
         <h1 id="h1_4">LOÀI</h1>
         <h1 id="h2_4">CÁ VOI</h1>
@@ -98,8 +107,13 @@
           của chúng đối với đời sống thủy sinh bao gồm một lớp “mỡ” dày, giúp<br />
           cách nhiệt và tạo ra sức nổi.
         </p>
-        <button id="btn4">Chi tiết về cá voi</button>
+        <button id="btn4" onclick="hien2()">Chi tiết về cá voi</button>
       </span>
+    </div>
+    <div id="hide3" style="display: none">
+        <img class="img" src="../img/cv1.png" alt="page3" />
+        <button id="btn4_5" onclick="an2()">Ẩn nội dung</button>
+    </div>
     <div class="body5">
       <img class="img5" src="../img/onhiemsanho.jpg" alt="page5" />
       <span>
@@ -111,8 +125,12 @@
           <br> ô nhiễm như các sản phẩm dầu mỏ và thuốc trừ sâu làm nhiễm độc các rạn san<br>
           hô. Vấn đề đã lên đến mức khủng hoảng ở nhiều nơi trên thế giới.
         </p>
-        <button id="btn5">San hô bị ô nhiễm như thế nào?</button>
+        <button id="btn5" onclick="hien3()">San hô bị ô nhiễm như thế nào?</button>
       </span>
+    </div>
+    <div id="hide4" style="display: none">
+      <img class="img5_5" src="../img/sh2.png" alt="page3" />
+      <button id="btn5_5" onclick="an3()">Ẩn nội dung</button>
     </div>
     <div class="body6">
       <img class="img6" src="../img/ruanguyhiem.jpg" alt="page6" />
@@ -122,9 +140,13 @@
         <p id="p1_6">
           Các chất ô nhiễm có thể gây hại ngay lập tức cho rùa biển khi tiếp xúc <br> trực tiếp hoặc có thể tích tụ từ từ dẫn đến suy giảm hệ miễn dịch khiến chúng<br> dễ bị bệnh và chết đi. Sự ô nhiễm phá hủy môi trường sống của loài<br> này là một mối đe dọa to lớn.
         </p>
-        <button id="btn6">Loài rùa gặp nguy hiểm gì?</button>
+        <button id="btn6" onclick="hien4()">Loài rùa gặp nguy hiểm gì?</button>
       </span>
       </span>
+    </div>
+    <div id="hide5" style="display: none">
+      <img class="img6_5" src="../img/rb2.png" alt="page3" />
+      <button id="btn6_5" onclick="an4()">Ẩn nội dung</button>
     </div>
     <div class="body7">
       <img class="img7" src="../img/cavoibisan.jpg" alt="page7" />
@@ -134,8 +156,12 @@
         <p id="p1_7">
           Đối với những người sống ở các bờ biển, săn bắt cá voi đã là công việc<br> quen thuộc của họ trong vài trăm năm. Một con cá voi bị giết nghĩa là có thức ăn<br> cho cả ngôi làng trong vài tuần. Trong thế kỷ qua, hơn hai triệu con cá voi đã<br> bị giết để cung cấp thức ăn cho con người.
         </p>
-        <button id="btn7">Tại sao cá voi bị săn bắt?</button>
+        <button id="btn7" onclick="hien5()">Tại sao cá voi bị săn bắt?</button>
       </span>
+    </div>
+    <div id="hide6" style="display: none">
+      <img class="img7_5" src="../img/cv2.jpg" alt="page3" />
+      <button id="btn7_5" onclick="an5()">Ẩn nội dung</button>
     </div>
     <div class="footer">
       <img class="img8" src="../img/foot.jpg" alt="page7" />
@@ -150,4 +176,6 @@
       </span>
     </div>
   </body>
+  <script src="./js/main.js">
+  </script>
 </html>
