@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.img1 {
+.img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -44,6 +44,31 @@
   height: 100%;
   object-fit: cover;
 }
+.img2_5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img3_5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img4_5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img5_5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img6_5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .body1 {
   position: relative;
   line-height: 0;
@@ -69,6 +94,30 @@
   line-height: 0;
 }
 .body7 {
+  position: relative;
+  line-height: 0;
+}
+#hide1 {
+  position: relative;
+  line-height: 0;
+}
+#hide2 {
+  position: relative;
+  line-height: 0;
+}
+#hide3 {
+  position: relative;
+  line-height: 0;
+}
+#hide4 {
+  position: relative;
+  line-height: 0;
+}
+#hide5 {
+  position: relative;
+  line-height: 0;
+}
+#hide6 {
   position: relative;
   line-height: 0;
 }
@@ -233,8 +282,8 @@
   color: #33a8c9;
   position: absolute;
   font-family: "Yanone Kaffeesatz";
-  top: 5%;
-  left: 20%;
+  top: 20%;
+  left: 30%;
 }
 #h2_4 {
   font-size: 150px;
@@ -445,6 +494,114 @@
   color: black;
   font-family: "Roboto Condensed";
   text-decoration: none;
+}
+#btn2_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#btn3_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#btn4_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#btn5_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#btn6_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+#btn7_5 {
+  cursor: pointer;
+  position: absolute;
+  top: 92.5%;
+  left: 90.2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px 25px 0px 0px;
+  border-color: #636566;
+  border-width: 10px;
+  font-family: "Yanone Kaffeesatz";
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 @media screen and (min-width: 1400px) {
   .h1_1 {
@@ -975,7 +1132,7 @@
     color: #33a8c9;
     position: absolute;
     font-family: "Yanone Kaffeesatz";
-    top: 5%;
+    top: 20%;
     left: 20%;
   }
   #h2_4 {
@@ -983,7 +1140,7 @@
     color: #106091;
     position: absolute;
     font-family: "Yanone Kaffeesatz";
-    top: 5%;
+    top: 20%;
     left: 30%;
   }
   #p1_4 {
@@ -991,14 +1148,14 @@
     color: #106091;
     position: absolute;
     font-family: "Roboto Condensed";
-    top: 7%;
+    top: 30%;
     left: 15%;
     line-height: 1.2;
   }
   #btn4 {
     cursor: pointer;
     position: absolute;
-    top: 12%;
+    top: 50%;
     left: 20%;
     margin: 20px, 20px, 20px, 20px;
     padding-left: 25px;
@@ -1347,7 +1504,7 @@
     color: #33a8c9;
     position: absolute;
     font-family: "Yanone Kaffeesatz";
-    top: 5%;
+    top: 20%;
     left: 20%;
   }
   #h2_4 {
@@ -1355,7 +1512,7 @@
     color: #106091;
     position: absolute;
     font-family: "Yanone Kaffeesatz";
-    top: 5%;
+    top: 20%;
     left: 31%;
   }
   #p1_4 {
@@ -1363,14 +1520,14 @@
     color: #106091;
     position: absolute;
     font-family: "Roboto Condensed";
-    top: 7%;
+    top: 30%;
     left: 20%;
     line-height: 1.2;
   }
   #btn4 {
     cursor: pointer;
     position: absolute;
-    top: 12%;
+    top: 50%;
     left: 20%;
     margin: 20px, 20px, 20px, 20px;
     padding-left: 50px;
